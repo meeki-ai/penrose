@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Replace | @penrose/core</title>
+	<title>WithContext | @penrose/core</title>
 	<meta name="description" content="Documentation for @penrose/core">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -59,21 +59,29 @@
 					<a href="../modules/_synthesis_synthesizer_.html">&quot;synthesis/Synthesizer&quot;</a>
 				</li>
 				<li>
-					<a href="_synthesis_synthesizer_.replace.html">Replace</a>
+					<a href="_synthesis_synthesizer_.withcontext.html">WithContext</a>
 				</li>
 			</ul>
-			<h1>Interface Replace</h1>
+			<h1>Interface WithContext&lt;T&gt;</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-type-parameters">
+				<h3>Type parameters</h3>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>T</h4>
+					</li>
+				</ul>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Replace</span>
+						<span class="target">WithContext</span>
 					</li>
 				</ul>
 			</section>
@@ -81,57 +89,35 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section tsd-is-not-exported">
+						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_synthesis_synthesizer_.replace.html#mutationtype" class="tsd-kind-icon">mutation<wbr>Type</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_synthesis_synthesizer_.replace.html#new" class="tsd-kind-icon">new</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_synthesis_synthesizer_.replace.html#old" class="tsd-kind-icon">old</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported"><a href="_synthesis_synthesizer_.replace.html#tag" class="tsd-kind-icon">tag</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_synthesis_synthesizer_.withcontext.html#ctx" class="tsd-kind-icon">ctx</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_synthesis_synthesizer_.withcontext.html#res" class="tsd-kind-icon">res</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-					<a name="mutationtype" class="tsd-anchor"></a>
-					<h3>mutation<wbr>Type</h3>
-					<div class="tsd-signature tsd-kind-icon">mutation<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="ctx" class="tsd-anchor"></a>
+					<h3>ctx</h3>
+					<div class="tsd-signature tsd-kind-icon">ctx<span class="tsd-signature-symbol">:</span> <a href="_synthesis_synthesizer_.synthesiscontext.html" class="tsd-signature-type">SynthesisContext</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/penrose/penrose/blob/c0a0c3f/packages/core/src/synthesis/Synthesizer.ts#L103">packages/core/src/synthesis/Synthesizer.ts:103</a></li>
+							<li>Defined in <a href="https://github.com/penrose/penrose/blob/da8f9e5/packages/core/src/synthesis/Synthesizer.ts#L261">packages/core/src/synthesis/Synthesizer.ts:261</a></li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-					<a name="new" class="tsd-anchor"></a>
-					<h3>new</h3>
-					<div class="tsd-signature tsd-kind-icon">new<span class="tsd-signature-symbol">:</span> <a href="../modules/_types_substance_.html#substmt" class="tsd-signature-type">SubStmt</a></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="res" class="tsd-anchor"></a>
+					<h3>res</h3>
+					<div class="tsd-signature tsd-kind-icon">res<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/penrose/penrose/blob/c0a0c3f/packages/core/src/synthesis/Synthesizer.ts#L102">packages/core/src/synthesis/Synthesizer.ts:102</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-					<a name="old" class="tsd-anchor"></a>
-					<h3>old</h3>
-					<div class="tsd-signature tsd-kind-icon">old<span class="tsd-signature-symbol">:</span> <a href="../modules/_types_substance_.html#substmt" class="tsd-signature-type">SubStmt</a></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/penrose/penrose/blob/c0a0c3f/packages/core/src/synthesis/Synthesizer.ts#L101">packages/core/src/synthesis/Synthesizer.ts:101</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-					<a name="tag" class="tsd-anchor"></a>
-					<h3>tag</h3>
-					<div class="tsd-signature tsd-kind-icon">tag<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"Replace"</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/penrose/penrose/blob/c0a0c3f/packages/core/src/synthesis/Synthesizer.ts#L100">packages/core/src/synthesis/Synthesizer.ts:100</a></li>
+							<li>Defined in <a href="https://github.com/penrose/penrose/blob/da8f9e5/packages/core/src/synthesis/Synthesizer.ts#L260">packages/core/src/synthesis/Synthesizer.ts:260</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -150,59 +136,41 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-class tsd-parent-kind-module tsd-is-not-exported">
-						<a href="../classes/_synthesis_synthesizer_.synthesiscontext.html" class="tsd-kind-icon">Synthesis<wbr>Context</a>
-					</li>
 					<li class=" tsd-kind-class tsd-parent-kind-module">
 						<a href="../classes/_synthesis_synthesizer_.synthesizer.html" class="tsd-kind-icon">Synthesizer</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.add.html" class="tsd-kind-icon">Add</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.candidates.html" class="tsd-kind-icon">Candidates</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="_synthesis_synthesizer_.decltypes.html" class="tsd-kind-icon">Decl<wbr>Types</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.delete.html" class="tsd-kind-icon">Delete</a>
+						<a href="_synthesis_synthesizer_.idlist.html" class="tsd-kind-icon">IDList</a>
 					</li>
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.replace.html" class="tsd-kind-icon">Replace</a>
-						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-								<a href="_synthesis_synthesizer_.replace.html#mutationtype" class="tsd-kind-icon">mutation<wbr>Type</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-								<a href="_synthesis_synthesizer_.replace.html#new" class="tsd-kind-icon">new</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-								<a href="_synthesis_synthesizer_.replace.html#old" class="tsd-kind-icon">old</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-								<a href="_synthesis_synthesizer_.replace.html#tag" class="tsd-kind-icon">tag</a>
-							</li>
-						</ul>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="_synthesis_synthesizer_.synthesiscontext.html" class="tsd-kind-icon">Synthesis<wbr>Context</a>
 					</li>
-				</ul>
-				<ul class="after-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.replacename.html" class="tsd-kind-icon">Replace<wbr>Name</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.swap.html" class="tsd-kind-icon">Swap</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="_synthesis_synthesizer_.synthesizedsubstance.html" class="tsd-kind-icon">Synthesized<wbr>Substance</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="_synthesis_synthesizer_.synthesizersetting.html" class="tsd-kind-icon">Synthesizer<wbr>Setting</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-is-not-exported">
-						<a href="_synthesis_synthesizer_.typechange.html" class="tsd-kind-icon">Type<wbr>Change</a>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
+						<a href="_synthesis_synthesizer_.withcontext.html" class="tsd-kind-icon">With<wbr>Context</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_synthesis_synthesizer_.withcontext.html#ctx" class="tsd-kind-icon">ctx</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_synthesis_synthesizer_.withcontext.html#res" class="tsd-kind-icon">res</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter tsd-is-not-exported">
+						<a href="_synthesis_synthesizer_.withstmts.html" class="tsd-kind-icon">With<wbr>Stmts</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-is-not-exported">
 						<a href="../modules/_synthesis_synthesizer_.html#all" class="tsd-kind-icon">All</a>
@@ -217,12 +185,6 @@
 						<a href="../modules/_synthesis_synthesizer_.html#matchsetting" class="tsd-kind-icon">Match<wbr>Setting</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-is-not-exported">
-						<a href="../modules/_synthesis_synthesizer_.html#modify" class="tsd-kind-icon">Modify</a>
-					</li>
-					<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-is-not-exported">
-						<a href="../modules/_synthesis_synthesizer_.html#mutation" class="tsd-kind-icon">Mutation</a>
-					</li>
-					<li class=" tsd-kind-type-alias tsd-parent-kind-module tsd-is-not-exported">
 						<a href="../modules/_synthesis_synthesizer_.html#randomfunction" class="tsd-kind-icon">Random<wbr>Function</a>
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
@@ -231,8 +193,35 @@
 					<li class=" tsd-kind-variable tsd-parent-kind-module tsd-is-not-exported">
 						<a href="../modules/_synthesis_synthesizer_.html#log" class="tsd-kind-icon">log</a>
 					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/_synthesis_synthesizer_.html#addid" class="tsd-kind-icon">addID</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_synthesis_synthesizer_.html#autolabel" class="tsd-kind-icon">auto<wbr>Label</a>
+					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter tsd-is-not-exported">
 						<a href="../modules/_synthesis_synthesizer_.html#filterbysetting" class="tsd-kind-icon">filter<wbr>BySetting</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_synthesis_synthesizer_.html#filtercontext" class="tsd-kind-icon">filter<wbr>Context</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_synthesis_synthesizer_.html#findids" class="tsd-kind-icon">findIDs</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_synthesis_synthesizer_.html#getdecls" class="tsd-kind-icon">get<wbr>Decls</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/_synthesis_synthesizer_.html#initcontext" class="tsd-kind-icon">init<wbr>Context</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_synthesis_synthesizer_.html#nonemptydecls" class="tsd-kind-icon">non<wbr>Empty<wbr>Decls</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/_synthesis_synthesizer_.html#removeid" class="tsd-kind-icon">removeID</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-is-not-exported">
+						<a href="../modules/_synthesis_synthesizer_.html#showenv" class="tsd-kind-icon">show<wbr>Env</a>
 					</li>
 				</ul>
 			</nav>
