@@ -257,8 +257,8 @@
   .sb-argstableBlock td:nth-of-type(3) {
     width: 15%;
   }
-  .sb-argstableBlock th:laste-of-type,
-  .sb-argstableBlock td:laste-of-type {
+  .sb-argstableBlock th:last-of-type,
+  .sb-argstableBlock td:last-of-type {
     width: 25%;
     padding-right: 20px;
   }
@@ -367,12 +367,25 @@
     );
   };
 </script>
+<link
+  href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+  rel="stylesheet"
+/>
 <script>
+  // https://github.com/storybookjs/storybook/issues/15391
   window.global = window;
 </script>
 
-    <script type="module" crossorigin src="/assets/iframe.f0313b7c.js"></script>
-    <link rel="modulepreload" href="/assets/vendor.66e0e269.js">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/markdown-it-texmath/css/texmath.min.css"
+/>
+
+    <script type="module" crossorigin src="./assets/iframe-e6fa3b51.js"></script>
   <style>
     .sb-show-preparing-story:not(.sb-show-main) > :not(.sb-preparing-story) {
       display: none;
